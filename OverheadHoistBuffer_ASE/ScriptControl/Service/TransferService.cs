@@ -3005,7 +3005,7 @@ namespace com.mirle.ibg3k0.sc.Service
                     cstData.Carrier_LOC = cstLoc;
 
                     cstData = IDRead(cstData);
-
+                    /////
                     BoxMovCmd(cstData, cstData.Carrier_LOC, UnitType.SHELF);
                 }
                 catch (Exception ex)
